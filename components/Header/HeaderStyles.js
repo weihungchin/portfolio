@@ -3,13 +3,20 @@ import styled from "styled-components";
 
 export const Span = styled.span`
   font-size: 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  color: rgb(299,299,299,0.85);
 `;
 
 export const Anchor = styled.a`
   display: flex;
   align-items: center;
-  color: white;
   margin-bottom: 2rem;
+  cursor: pointer;
+
+  &:hover >svg {
+    transform: rotate(-45deg);
+  }
 `;
 
 export const Container = styled.div`
@@ -17,8 +24,7 @@ export const Container = styled.div`
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
-  padding: 1rem;
-  padding-top: 2rem;
+  padding: 2rem 1rem 1rem 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);

@@ -1,12 +1,34 @@
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
-
+import Social from "../Social/Social";
+import {
+  FooterText,
+  FooterTextContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer,
+} from "./FooterStyles";
 
 const Footer = () => (
-    <div>Footer</div>
-
-)
+  <FooterWrapper>
+    <LinkList>
+      <LinkColumn>
+        <LinkTitle>Email</LinkTitle>
+        <LinkItem href="mailto:whc1g10@gmail.com">whc1g10@gmail.com</LinkItem>
+      </LinkColumn>
+    </LinkList>
+    <SocialContainer>
+      <FooterTextContainer>
+        <FooterText>© 2022 WeiHung,CHIN. All Rights Reserved.</FooterText>
+      </FooterTextContainer>
+      <SocialIconsContainer>
+        <Social />
+      </SocialIconsContainer>
+    </SocialContainer>
+  </FooterWrapper>
+);
 
 export default Footer;

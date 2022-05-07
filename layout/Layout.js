@@ -6,7 +6,7 @@ const Layout = ({ children }) => {
   return (
     <Container>
       <Header />
-      <main>{children}</main>
+      <main style = {{margin: "0 24px"}}>{children}</main>
       <Footer />
     </Container>
   );

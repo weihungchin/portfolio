@@ -1,37 +1,37 @@
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, Anchor } from "./HeaderStyles";
+import { Container, Div1, Div2, Div3, NavLink, Span, Anchor } from "./HeaderStyles";
 import Link from "next/link";
-import { DiCssdeck } from "react-icons/di";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { FaLaptopCode } from "react-icons/fa";
+import Social from "../Social/Social";
 
 const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
         <Anchor>
-          <DiCssdeck size="3rem" /> 
-          <Span>Portfolio</Span>
+          <FaLaptopCode size="3rem" />
+          <Span>WeiHung</Span>
         </Anchor>
       </Link>
     </Div1>
     <Div2>
+      <li>
+        <Link href="#tech">
+          <NavLink>Tech Stack</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#skills">
-          <NavLink>Skills</NavLink>
+        <Link href="#about">
+          <NavLink>About</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com">
-        <AiFillGithub size = "3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
-        <AiFillLinkedin size = "3rem" />
-      </SocialIcons>
+      <Social />
     </Div3>
   </Container>
 );
