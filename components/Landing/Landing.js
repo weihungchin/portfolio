@@ -12,7 +12,7 @@ const Landing = () => (
         <Intro>I&apos;m WeiHung, a full-stack web developer</Intro>
       </SlideUpAnimation>
       <SlideUpAnimation duration="1s" profile="ease-in" delay="1s">
-        <Button onClick={() => (window.location = "mailto:whc1g10@gmail.com")}>Contact Me!</Button>
+        <Button onClick={() => (window.location = "mailto:admin@weihung.tech")}>Get in touch!</Button>
       </SlideUpAnimation>
     </LeftSection>
   </Section>
