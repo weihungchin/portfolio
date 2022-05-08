@@ -1,13 +1,13 @@
 import { DiDatabase, DiJavascript } from "react-icons/di";
 import { SiLinuxcontainers } from "react-icons/si";
-import { LowHighlight, Section, SectionDivider, SectionText, SectionTitle, SpanHighlight } from "../../styles/GlobalComponents";
+import { Section, SectionDivider, SectionText, SectionTitle, SpanHighlight } from "../../styles/GlobalComponents";
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from "./TechStyles";
 
 const Tech = () => (
   <Section nopadding id="tech">
     <SectionDivider divider />
     <SectionTitle>Tech Stack</SectionTitle>
-    <SectionText>The main area of my expertise is front-end development, HTML, CSS, JS, Angular. I also dabble with VueJS and ReactJS</SectionText>
+    <SectionText>The main area of my expertise is front-end development, HTML, CSS, JS, Angular. I also dabble with VueJS and ReactJS.</SectionText>
     <SectionText>Having said that, I also have full-stack development experiences on medium to large applications.</SectionText>
     <List>
       <ListItem>
@@ -35,7 +35,7 @@ const Tech = () => (
         <ListContainer>
           <ListTitle>Infrastructure</ListTitle>
           <ListParagraph>
-            Dabble with <br />
+            Operation support with <br />
             <SpanHighlight>Docker, K8s</SpanHighlight>
           </ListParagraph>
         </ListContainer>

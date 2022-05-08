@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "This Portfolio Website",
     description:
-      "A portfolio site built with NextJS using styled-components",
+      "A portfolio site built with NextJS using styled-components.",
     image: "/images/1.webp",
     tags: ["NextJS", "ReactJS"],
     source: "https://github.com/weihungchin/portfolio",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Krypton-cli",
     description:
-      "A fancy cli tool for checking crypto prices in the terminal",
+      "A fancy cli tool for checking crypto prices in the terminal.",
     image: "/images/3.webp",
     tags: ["NodeJS"],
     source: "https://github.com/weihungchin/krypton-cli",

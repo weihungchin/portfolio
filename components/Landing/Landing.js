@@ -1,9 +1,11 @@
-import { Section, SectionTitle, SectionText } from "../../styles/GlobalComponents";
+import { Section, SectionTitle } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection, Hello, Intro, SlideUpAnimation } from "./LandingStyles";
+import { LeftSection, Hello, Intro, SlideUpAnimation, StarryBackground, ShootingStar } from "./LandingStyles";
 
 const Landing = () => (
   <Section nopadding row style={{ height: "100vh" }}>
+    <StarryBackground />
+    <ShootingStar />
     <LeftSection>
       <SectionTitle main center>
         <Hello>Hello</Hello>
