@@ -1,15 +1,19 @@
 import { Section, SectionTitle, SectionText } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection, Hello, Intro } from "./LandingStyles";
+import { LeftSection, Hello, Intro, SlideUpAnimation } from "./LandingStyles";
 
 const Landing = () => (
-  <Section nopadding row>
+  <Section nopadding row style={{ height: "100vh" }}>
     <LeftSection>
       <SectionTitle main center>
         <Hello>Hello</Hello>
       </SectionTitle>
-      <Intro>I&apos;m WeiHung, a full-stack web developer</Intro>
-      <Button onClick={() => (window.location = "mailto:whc1g10@gmail.com")}>Contact Me!</Button>
+      <SlideUpAnimation duration="0.4s" delay="1s">
+        <Intro>I&apos;m WeiHung, a full-stack web developer</Intro>
+      </SlideUpAnimation>
+      <SlideUpAnimation duration="1s" profile="ease-in" delay="1s">
+        <Button onClick={() => (window.location = "mailto:whc1g10@gmail.com")}>Contact Me!</Button>
+      </SlideUpAnimation>
     </LeftSection>
   </Section>
 );

@@ -7,7 +7,6 @@ import {
   LinkItem,
   LinkList,
   LinkTitle,
-  Slogan,
   SocialContainer,
   SocialIconsContainer,
 } from "./FooterStyles";
