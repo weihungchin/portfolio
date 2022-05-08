@@ -6,6 +6,7 @@ import About from "../components/About/About";
 import Head from "next/head";
 
 const Home = () => {
+  { console.log("🤓 Nothing to see here")}
   return (
     <Layout>
       <Head>

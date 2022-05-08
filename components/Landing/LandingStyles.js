@@ -127,5 +127,5 @@ export const ShootingStar = styled.div `
   right: 0;
   background: linear-gradient(to top, rgba(255, 255, 255, 0), white);
   animation: ${shootingStarAnimation} 6s linear infinite;
-  animation-delay: 5s;
+  animation-delay: 4.5s;
 `;
