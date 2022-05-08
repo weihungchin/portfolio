@@ -129,3 +129,10 @@ export const ShootingStar = styled.div `
   animation: ${shootingStarAnimation} 6s linear infinite;
   animation-delay: 4.5s;
 `;
+
+export const DescriptionLink = styled.a`
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.4);  
+  font-size: 16px;
+  cursor:pointer;
+`
